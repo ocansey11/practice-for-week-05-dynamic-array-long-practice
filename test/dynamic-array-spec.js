@@ -52,7 +52,6 @@ describe('Dynamic Array', function () {
   });
 
   it('can `push()` single values onto the end of the array', function () {
-
     dynamicArr.push(1);
     expect(dynamicArr.length).to.equal(1);
     expect(dynamicArr.read(0)).to.equal(1);
